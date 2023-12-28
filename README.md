@@ -1,72 +1,106 @@
-# Face Recongition App
 
-![Alt text](image.png)
+# Face Recogntion App 🧑✨
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## 📖 Introduction
+Welcome to FaceRecognition – the face recognition technology at your fingertips! Our app simplifies facial detection in images, allowing you to effortlessly box faces with precision. Perfect for photography enthusiasts and social media users alike with user-friendly design, making it easy for anyone to enhance their visual content. Experience the convenience of accurate face detection
+## 🪶 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🔍**Advanced Face Detection:** Let FaceRecoginiton do the hard work for you as it accurately identifies and boxes faces within your images
+- 📸**Upload and Analyze:** Simply upload your images, and watch as our app swiftly processes and displays the detected faces.
+- 🌐**Versatile Compatibility:** Whether it's a group photo, a selfie, or a professional shot, it's caters to all image types.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔖 Tech Stack
 
-### `npm run build`
+**Client:** React, Tachyons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Server:** Node, Express, Clarifai, Postgresql
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Cloning locally
 
-### `npm run eject`
+Clone the project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  git clone https://github.com/aman879/face-recognition.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Go to the project directory
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  cd my-project
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## 🗝️ Configuration
+Before you start using FaceRecognition app. You have to obtain you Clarifai API key and use it on App.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    const PAT = //YOUR API KEY;
+    
+    const USER_ID = //USER_ID;       
+    const APP_ID = //APP_NAME;
+You can add this on your **Enviroment variable** also.
 
-### Analyzing the Bundle Size
+**For Backend:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Install postgresql and pgAdmin on you system.
+- If using wsl visit file in backend folder and follow same steps
+- Connect to pgAdmin and configure your server.js
+    
+      connection: {
+        host : //your hostname,
+        port : 5432,
+        user : 'postgres',
+        password : //password,
+        database : //databaseName
+      }
+  
+## 🧑‍💻 Running the app
 
-### Making a Progressive Web App
+Start postgresql
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Go to backend folder
 
-### Advanced Configuration
+```bash
+cd backend
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Start the backend server
 
-### Deployment
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Go to your frontend folder
 
-### `npm run build` fails to minify
+```bash
+cd ..
+cd frontend
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Start frontend
+
+```bash
+npm run start
+```
+
+## 🤗 Contributing
+
+We welcome all contributors to enhance Sentisonics and make it even more magical. If you have any suggestions, find bugs, or want to add exciting new features, feel free to submit a pull request or open an issue in the repository
+
+
+## 🎗️ License
+
+[MIT](https://github.com/aman879/face-recognition/blob/main/LICENSE)
+
