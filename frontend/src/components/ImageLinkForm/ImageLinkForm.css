@@ -1,0 +1,18 @@
+.form {
+    width: 700px;
+    background-image: url("./web.jpg");             
+}
+
+button {
+    //background-image: url("./suit.jpg");
+    cursor: pointer;
+    
+}
+
+.detect {
+    background-color: #C62B29;
+}
+
+.detect:hover {
+    background-color: #08406C;
+  }

@@ -1,0 +1,27 @@
+.logo-img {
+    width: 100px; /* Adjust the desired width */
+    height: auto; /* Automatically adjust the height */
+  }
+  
+  .Tilt {
+    margin-right: auto;
+    border-bottom: none;
+    background: linear-gradient(to bottom, #f5f5f5, #ffffff, rgba(0, 0, 0, 0));
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("./background.jpg");
+    background-size: cover;
+    height: 12vh; 
+  }
+  
+  .logo-container {
+    margin-left: 10px;
+  }
+  
+  .sign-out-container {
+    text-align: right;
+  }

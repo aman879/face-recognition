@@ -1,0 +1,22 @@
+.center {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.face-image {
+  max-width: 100%;
+  max-height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bounding-box {
+  position: absolute;
+  box-shadow: 0 0 0 3px #149df2 inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
