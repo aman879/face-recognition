@@ -1,7 +1,7 @@
 
 # Face Recogntion App 🧑✨
 
-
+![final](https://github.com/aman879/face-recognition/assets/64148207/547fb6ba-ebbb-405e-b968-655cfdf0c5c8)
 
 
 ## 📖 Introduction
