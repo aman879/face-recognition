@@ -1,0 +1,8 @@
+1. search hostname -I
+2.  for status: sudo service postgresql status
+    to start: sudo service postgresql start
+    to stop: sudo service postgresql stop
+3. sudo -u postgres psql
+4. In powershell
+    psql -U postgres -h yourHostId
+5. Connect or make new server group in pgAdmin
