@@ -11,6 +11,7 @@ Welcome to FaceRecognition – the face recognition technology at your fingertip
 - 🔍**Advanced Face Detection:** Let FaceRecoginiton do the hard work for you as it accurately identifies and boxes faces within your images
 - 📸**Upload and Analyze:** Simply upload your images, and watch as our app swiftly processes and displays the detected faces.
 - 🌐**Versatile Compatibility:** Whether it's a group photo, a selfie, or a professional shot, it's caters to all image types.
+- 🔢**Smart Search History:** Keep track effortlessly! It not only recognizes faces but also remembers the count of photos you've searched, providing a convenient way to manage and revisit your searches.
 
 
 
